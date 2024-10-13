@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { getConfigData } from "../data/configReader";
 import { Link } from 'react-router-dom';
+import w from "../assets/w.png";
+import uni from "../assets/uni.png";
+
 
 export default function Card() {
   const configData = getConfigData();
@@ -126,7 +129,7 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src='./src/assets/uni.png'
+                      src={uni}
                       alt=""
                     />
                   </div>
@@ -184,7 +187,7 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src='./src/assets/w.png'
+                      src={w}
                       alt=""
                     />
                   </div>

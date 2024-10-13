@@ -1,5 +1,14 @@
 import { useState } from "react";
 import { getConfigData } from "../data/configReader";
+import w from "../assets/w.png";
+import uni from "../assets/uni.png";
+import one from "../assets/1.png";
+import two from "../assets/2.png";
+import three from "../assets/3.png";
+import q from "../assets/q.png";
+
+import onwzeroonethree from "../assets/1013.png";
+
 
 export default function Card() {
   const configData = getConfigData();
@@ -102,7 +111,7 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src='./src/assets/uni.png'
+                      src={uni}
                       alt=""
                     />
                   </div>
@@ -158,7 +167,7 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src='./src/assets/1013.png'
+                      src={onwzeroonethree}
                       alt=""
                     />
                   </div>
@@ -210,7 +219,7 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src='./src/assets/w.png'
+                      src={w}
                       alt=""
                     />
                   </div>
@@ -260,7 +269,7 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src='./src/assets/q.png'
+                      src={q}
                       alt=""
                     />
                   </div>
@@ -309,7 +318,7 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src='./src/assets/1.png'
+                      src={one}
                       alt=""
                     />
                   </div>
@@ -358,7 +367,7 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src='./src/assets/2.png'
+                      src={two}
                       alt=""
                     />
                   </div>
@@ -408,7 +417,7 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src='./src/assets/3.png'
+                      src={three}
                       alt=""
                     />
                   </div>
