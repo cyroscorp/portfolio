@@ -9,7 +9,7 @@
   "hireMeLink": "https://www.linkedin.com/in/arjun-kumar-dubey-a77625270/",
   "projects": [
     {
-      "project-image-url": "./src/assets/chat.png",
+      
       "project-name": "Group Messenger",
       "project-desc": "React + Firebase"
     }

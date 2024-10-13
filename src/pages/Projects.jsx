@@ -6,6 +6,7 @@ import one from "../assets/1.png";
 import two from "../assets/2.png";
 import three from "../assets/3.png";
 import q from "../assets/q.png";
+import chat from "../assets/chat.png";
 
 import onwzeroonethree from "../assets/1013.png";
 
@@ -52,7 +53,7 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src={project["project-image-url"]}
+                    src={chat}
                       alt=""
                     />
                   </div>
