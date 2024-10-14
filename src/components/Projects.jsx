@@ -2,6 +2,7 @@ import { useState } from "react";
 import { getConfigData } from "../data/configReader";
 import { Link } from 'react-router-dom';
 import w from "../assets/w.png";
+import d from "../assets/d.png";
 import uni from "../assets/uni.png";
 import chat from "../assets/chat.png";
 
@@ -187,7 +188,7 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src={w}
+                      src={d}
                       alt=""
                     />
                   </div>
