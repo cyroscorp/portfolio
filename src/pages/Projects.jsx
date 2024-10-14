@@ -7,6 +7,7 @@ import two from "../assets/2.png";
 import three from "../assets/3.png";
 import q from "../assets/q.png";
 import chat from "../assets/chat.png";
+import d from "../assets/d.png";
 
 import onwzeroonethree from "../assets/1013.png";
 
@@ -158,7 +159,7 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src={w}
+                      src={d}
                       alt=""
                     />
                   </div>
