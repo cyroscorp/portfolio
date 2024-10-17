@@ -5,6 +5,7 @@ import w from "../assets/w.png";
 import d from "../assets/d.png";
 import uni from "../assets/uni.png";
 import chat from "../assets/chat.png";
+import K from "../assets/K.png";
 
 
 export default function Card() {
@@ -74,7 +75,7 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src={d}
+                      src={K}
                       alt=""
                     />
                   </div>
@@ -108,7 +109,7 @@ export default function Card() {
           </div>
 
 
-          
+
           <div className="flex flex-col">
             {projects.map((project, index) => (
               <a
